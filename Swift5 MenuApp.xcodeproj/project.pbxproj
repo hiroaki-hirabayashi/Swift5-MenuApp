@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14ED8F37548055610381CD5F /* Pods_Swift5_MenuApp_Swift5_MenuAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0658A5651624638FF5A4F670 /* Pods_Swift5_MenuApp_Swift5_MenuAppUITests.framework */; };
+		7A521330A07A8BD8157916FF /* Pods_Swift5_MenuAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F675875DD2210A57FADD1DB /* Pods_Swift5_MenuAppTests.framework */; };
+		8F81C0CAABA32F2317966BC2 /* Pods_Swift5_MenuApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E69C438256E1303CED45D0 /* Pods_Swift5_MenuApp.framework */; };
 		E7003D262481367E00F15528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7003D252481367E00F15528 /* AppDelegate.swift */; };
 		E7003D282481367E00F15528 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7003D272481367E00F15528 /* SceneDelegate.swift */; };
 		E7003D2A2481367E00F15528 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7003D292481367E00F15528 /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		E7003D322481368100F15528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7003D302481368100F15528 /* LaunchScreen.storyboard */; };
 		E7003D3D2481368200F15528 /* Swift5_MenuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7003D3C2481368200F15528 /* Swift5_MenuAppTests.swift */; };
 		E7003D482481368200F15528 /* Swift5_MenuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7003D472481368200F15528 /* Swift5_MenuAppUITests.swift */; };
+		E7003D562481376D00F15528 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7003D552481376D00F15528 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E69C438256E1303CED45D0 /* Pods_Swift5_MenuApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5_MenuApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0658A5651624638FF5A4F670 /* Pods_Swift5_MenuApp_Swift5_MenuAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5_MenuApp_Swift5_MenuAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D24984C6D3C33BDC739641 /* Pods-Swift5 MenuApp-Swift5 MenuAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5 MenuApp-Swift5 MenuAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Swift5 MenuApp-Swift5 MenuAppUITests/Pods-Swift5 MenuApp-Swift5 MenuAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EB27C3FF43E77D3ACB92B48 /* Pods-Swift5 MenuAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5 MenuAppTests.debug.xcconfig"; path = "Target Support Files/Pods-Swift5 MenuAppTests/Pods-Swift5 MenuAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62F5A406ACB8970E94550AB5 /* Pods-Swift5 MenuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5 MenuApp.release.xcconfig"; path = "Target Support Files/Pods-Swift5 MenuApp/Pods-Swift5 MenuApp.release.xcconfig"; sourceTree = "<group>"; };
+		9F675875DD2210A57FADD1DB /* Pods_Swift5_MenuAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5_MenuAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E464EFE6E8F9991400BC5F /* Pods-Swift5 MenuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5 MenuApp.debug.xcconfig"; path = "Target Support Files/Pods-Swift5 MenuApp/Pods-Swift5 MenuApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C11219BEC49C0159715FDA6B /* Pods-Swift5 MenuApp-Swift5 MenuAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5 MenuApp-Swift5 MenuAppUITests.release.xcconfig"; path = "Target Support Files/Pods-Swift5 MenuApp-Swift5 MenuAppUITests/Pods-Swift5 MenuApp-Swift5 MenuAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E140A9BF24868D9EBC31353B /* Pods-Swift5 MenuAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5 MenuAppTests.release.xcconfig"; path = "Target Support Files/Pods-Swift5 MenuAppTests/Pods-Swift5 MenuAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		E7003D222481367E00F15528 /* Swift5 MenuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift5 MenuApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7003D252481367E00F15528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7003D272481367E00F15528 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		E7003D432481368200F15528 /* Swift5 MenuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift5 MenuAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7003D472481368200F15528 /* Swift5_MenuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift5_MenuAppUITests.swift; sourceTree = "<group>"; };
 		E7003D492481368200F15528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7003D552481376D00F15528 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F81C0CAABA32F2317966BC2 /* Pods_Swift5_MenuApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A521330A07A8BD8157916FF /* Pods_Swift5_MenuAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14ED8F37548055610381CD5F /* Pods_Swift5_MenuApp_Swift5_MenuAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9782168096F34E19FA3DE928 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02E69C438256E1303CED45D0 /* Pods_Swift5_MenuApp.framework */,
+				0658A5651624638FF5A4F670 /* Pods_Swift5_MenuApp_Swift5_MenuAppUITests.framework */,
+				9F675875DD2210A57FADD1DB /* Pods_Swift5_MenuAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAE562DA3907C485E5A55D50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0E464EFE6E8F9991400BC5F /* Pods-Swift5 MenuApp.debug.xcconfig */,
+				62F5A406ACB8970E94550AB5 /* Pods-Swift5 MenuApp.release.xcconfig */,
+				10D24984C6D3C33BDC739641 /* Pods-Swift5 MenuApp-Swift5 MenuAppUITests.debug.xcconfig */,
+				C11219BEC49C0159715FDA6B /* Pods-Swift5 MenuApp-Swift5 MenuAppUITests.release.xcconfig */,
+				1EB27C3FF43E77D3ACB92B48 /* Pods-Swift5 MenuAppTests.debug.xcconfig */,
+				E140A9BF24868D9EBC31353B /* Pods-Swift5 MenuAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E7003D192481367E00F15528 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				E7003D3B2481368200F15528 /* Swift5 MenuAppTests */,
 				E7003D462481368200F15528 /* Swift5 MenuAppUITests */,
 				E7003D232481367E00F15528 /* Products */,
+				DAE562DA3907C485E5A55D50 /* Pods */,
+				9782168096F34E19FA3DE928 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +144,7 @@
 				E7003D252481367E00F15528 /* AppDelegate.swift */,
 				E7003D272481367E00F15528 /* SceneDelegate.swift */,
 				E7003D292481367E00F15528 /* ViewController.swift */,
+				E7003D552481376D00F15528 /* ImageViewController.swift */,
 				E7003D2B2481367E00F15528 /* Main.storyboard */,
 				E7003D2E2481368100F15528 /* Assets.xcassets */,
 				E7003D302481368100F15528 /* LaunchScreen.storyboard */,
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7003D4C2481368200F15528 /* Build configuration list for PBXNativeTarget "Swift5 MenuApp" */;
 			buildPhases = (
+				D2DE126DDEF511D52AB18819 /* [CP] Check Pods Manifest.lock */,
 				E7003D1E2481367E00F15528 /* Sources */,
 				E7003D1F2481367E00F15528 /* Frameworks */,
 				E7003D202481367E00F15528 /* Resources */,
+				92EA036670B1609411CE89FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7003D4F2481368200F15528 /* Build configuration list for PBXNativeTarget "Swift5 MenuAppTests" */;
 			buildPhases = (
+				9CD3F5BCB1D763A8741E7A4E /* [CP] Check Pods Manifest.lock */,
 				E7003D342481368200F15528 /* Sources */,
 				E7003D352481368200F15528 /* Frameworks */,
 				E7003D362481368200F15528 /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7003D522481368200F15528 /* Build configuration list for PBXNativeTarget "Swift5 MenuAppUITests" */;
 			buildPhases = (
+				AC5EB3755F15EE2DE6C39C71 /* [CP] Check Pods Manifest.lock */,
 				E7003D3F2481368200F15528 /* Sources */,
 				E7003D402481368200F15528 /* Frameworks */,
 				E7003D412481368200F15528 /* Resources */,
+				B162389A589004318B3B37FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +302,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		92EA036670B1609411CE89FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5 MenuApp/Pods-Swift5 MenuApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5 MenuApp/Pods-Swift5 MenuApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift5 MenuApp/Pods-Swift5 MenuApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CD3F5BCB1D763A8741E7A4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5 MenuAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC5EB3755F15EE2DE6C39C71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5 MenuApp-Swift5 MenuAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B162389A589004318B3B37FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5 MenuApp-Swift5 MenuAppUITests/Pods-Swift5 MenuApp-Swift5 MenuAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5 MenuApp-Swift5 MenuAppUITests/Pods-Swift5 MenuApp-Swift5 MenuAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift5 MenuApp-Swift5 MenuAppUITests/Pods-Swift5 MenuApp-Swift5 MenuAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2DE126DDEF511D52AB18819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5 MenuApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E7003D1E2481367E00F15528 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +412,7 @@
 			files = (
 				E7003D2A2481367E00F15528 /* ViewController.swift in Sources */,
 				E7003D262481367E00F15528 /* AppDelegate.swift in Sources */,
+				E7003D562481376D00F15528 /* ImageViewController.swift in Sources */,
 				E7003D282481367E00F15528 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +584,7 @@
 		};
 		E7003D4D2481368200F15528 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E464EFE6E8F9991400BC5F /* Pods-Swift5 MenuApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +602,7 @@
 		};
 		E7003D4E2481368200F15528 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F5A406ACB8970E94550AB5 /* Pods-Swift5 MenuApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +620,7 @@
 		};
 		E7003D502481368200F15528 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB27C3FF43E77D3ACB92B48 /* Pods-Swift5 MenuAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +642,7 @@
 		};
 		E7003D512481368200F15528 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E140A9BF24868D9EBC31353B /* Pods-Swift5 MenuAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +664,7 @@
 		};
 		E7003D532481368200F15528 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D24984C6D3C33BDC739641 /* Pods-Swift5 MenuApp-Swift5 MenuAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +684,7 @@
 		};
 		E7003D542481368200F15528 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C11219BEC49C0159715FDA6B /* Pods-Swift5 MenuApp-Swift5 MenuAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
